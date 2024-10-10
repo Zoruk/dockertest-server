@@ -4,7 +4,7 @@ use derive_builder::Builder;
 use dockertest::{waitfor, Source};
 use std::collections::HashMap;
 
-const IMAGE: &str = "consul";
+const IMAGE: &str = "hashicorp/consul";
 const PORT: u32 = 8500;
 const LOG_MSG: &str = "Synced node info";
 const SOURCE: Source = Source::DockerHub;
